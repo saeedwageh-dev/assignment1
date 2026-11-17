@@ -158,13 +158,13 @@ console.log(splitString("the quick brown fox"));
  * Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their containing scope during the compilation phase.
  * This means that you can use variables and functions before they are declared in the code.
  * For example:
- * console.log(x); // undefined
+ * console.log(x); 
  * var x = 5;
  * In this example, the variable x is hoisted to the top of the scope, so it can be accessed before it is declared. However, its value is undefined until it is assigned a value.
  * The temporal dead zone is a period of time during which a variable is declared but not yet initialized.
  * This means that you cannot access the variable before it is initialized.
  * For example:
- * console.log(y); // ReferenceError: Cannot access 'y' before initialization
+ * console.log(y); 
  * let y = 10;
  * In this example, the variable y is declared using let, which creates a temporal dead zone. If you try to access y before it is initialized, you will get a ReferenceError.
  */
